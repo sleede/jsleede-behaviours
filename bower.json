@@ -5,7 +5,7 @@
     "Nicolas Florentin <nicolas@sleede.com>"
   ],
   "description": "A set of javascript behaviours using data attributes to share across projects",
-  "version": "0.0.0",
+  "version": "0.0.0-alpha",
   "main": [
     "./dist/behaviours.js"
   ],
