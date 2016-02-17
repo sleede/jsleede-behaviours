@@ -1,0 +1,35 @@
+{
+  "name": "jsleede-behaviours",
+  "title": "JSleede Behaviours",
+  "authors": [
+    "Nicolas Florentin <nicolas@sleede.com>"
+  ],
+  "description": "A set of javascript behaviours to share across projects",
+  "version": "0.0.0",
+  "main": [
+    "./dist/behaviours.js"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7.2"
+  },
+  "keywords": [
+    "data-behaviour",
+    "behaviour",
+    "behaviours",
+    "data",
+    "attribute",
+    "data attributes"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
