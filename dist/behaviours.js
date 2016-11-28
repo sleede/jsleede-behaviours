@@ -19,7 +19,11 @@
     return $($(this).data('show-on-click-target')).show();
   });
 
-  $(document).on('input', "[data-behaviour~=submit_closest_form_on_change]", function() {
+  $(document).on('input', "[data-behaviour~=submit_closest_form_on_input]", function() {
+    return $(this).closest('form').submit();
+  });
+
+  $(document).on('change', "[data-behaviour~=submit_closest_form_on_change]", function() {
     return $(this).closest('form').submit();
   });
 
